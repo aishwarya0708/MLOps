@@ -57,6 +57,15 @@ def fun4(x,y,z):
     total_sum = x + y + z
     return total_sum
 
+def fun5(x, y):
+    """Division"""
+    if y == 0:
+        return "Error: Division by zero"
+    return x / y
+
+def fun6(x):
+    """Square"""
+    return x * x
 
 # f1_op = fun1(2,3)
 # f2_op = fun2(2,3)

@@ -27,4 +27,9 @@ def test_fun4():
     assert calculator.fun4 (-1, -1, -1) == -3
     
     assert calculator.fun4 (-1, -1, 100) == 98
-    
+def test_fun5():
+    assert calculator.fun5(10, 2) == 5
+    assert calculator.fun5(5, 0) == "Error: Division by zero"
+
+def test_fun6():
+    assert calculator.fun6(4) == 16
